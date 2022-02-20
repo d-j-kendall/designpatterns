@@ -8,6 +8,7 @@ import java.io.*;
 import java.util.logging.Logger;
 
 @Getter
+@Setter
 @ToString
 public abstract class BasicCar implements Cloneable, Serializable {
 

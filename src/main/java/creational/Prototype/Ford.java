@@ -12,8 +12,8 @@ public class Ford extends BasicCar implements Cloneable
 {
     public Ford()
     {
-        super.modelName = "Ford";
-        super.price = 25_000.00; // luxury model
+        setModelName("Ford");
+        setPrice(25_000.00); // luxury model
     }
 
     @Override
