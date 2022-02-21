@@ -1,11 +1,6 @@
-package creational.Prototype;
+package creational.prototype;
 
 import lombok.ToString;
-
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 
 @ToString
 public class Ford extends BasicCar implements Cloneable
